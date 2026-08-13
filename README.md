@@ -10,7 +10,6 @@ Use somente os arquivos publicados em [Releases](https://github.com/luidcorporat
 
 - Instalador com desinstalador próprio
 - Versão portátil
-- Pacote de código-fonte C++20
 - Documentação e checksums
 
 ## Limites transparentes
