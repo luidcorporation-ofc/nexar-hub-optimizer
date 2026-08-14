@@ -2,6 +2,8 @@
   "version": "2.0.0-beta",
   "channel": "beta",
   "mandatory": false,
+  "build": "NEXAR-2B-20260813-001",
+  "published": "2026-08-14",
   "download": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.0.0-beta/NEXAR_Hub_Optimizer_v2.0_Beta_Setup.exe",
   "sha256": "5bab26f8fbd0ca830be3d6a5f4dc1ba585ba40784f7dfd0ea3ec8c22f41de2c4",
   "notes": "CPU Guard mais agressivo, GPU Guard Beta, nova bandeja e instalador visual."
