@@ -1,10 +1,10 @@
 {
-  "version": "2.0.1-beta",
-  "channel": "beta",
+  "version": "2.1.0-rc.1",
+  "channel": "rc",
   "mandatory": false,
-  "build": "NEXAR-2B-HF1-20260813-001",
+  "build": "NEXAR-21-RC1-20260820-001",
   "published": "2026-08-20",
-  "download": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.0.1-beta/NEXAR_Hub_Optimizer_v2.0.1_Beta_Setup.exe",
-  "sha256": "57f15da70043d5098e66cda39facb635b5b9b041ec5acb7260ee032f97b142da",
-  "notes": "Hotfix: restaura RAM Cleaner, RAM Guard automático, NEXAR HDD Engine com I/O Shield e Deep Clean, além do NEXAR Boost Gaming."
+  "download": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.1.0-rc.1/NEXAR_Hub_Optimizer_v2.1_RC1_Setup.exe",
+  "sha256": "45f23b60f70f3c7e733a3c4cc5e66c9b9eaa8d560b4f534c94ca181822d8a3c2",
+  "notes": "RC1: Stream Shield para OBS Studio e Streamlabs, CPU Guard por headroom, NEXAR Boost Stream, GPU Guard Beta coordenado e motores RAM/HDD preservados."
 }
