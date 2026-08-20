@@ -1,12 +1,12 @@
 # NEXAR HUB OPTIMIZER
 
-Site oficial e central de downloads do **NEXAR HUB OPTIMIZER v2.0 Beta**.
+Site oficial e central de downloads do **NEXAR HUB OPTIMIZER v2.0.1 Beta**.
 
 O NEXAR é um aplicativo nativo para Windows 10/11 x64 que reúne CPU Guard agressivo, GPU Guard Beta, RAM Cleaner, NEXAR HDD Engine, Discord Lite, painel de segundo plano e o perfil NEXAR Boost Gaming.
 
 ## Downloads
 
-Use somente os arquivos publicados em [Releases](https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases) e compare o SHA-256 com `CHECKSUMS_SHA256.txt` antes de executar.
+Use somente os arquivos publicados em [Releases](https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases) e compare o SHA-256 com `SHA256SUMS.txt` antes de executar.
 
 - Instalador com desinstalador próprio
 - Versão portátil
