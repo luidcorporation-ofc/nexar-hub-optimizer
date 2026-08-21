@@ -1,8 +1,20 @@
 # NEXAR HUB OPTIMIZER
 
-Site oficial e central de downloads do **NEXAR HUB OPTIMIZER 2.1 Stable** e da prévia **2.2 Beta**.
+Site oficial e central de downloads do **NEXAR HUB OPTIMIZER 2.2 Stable**.
 
-O NEXAR é um aplicativo nativo para Windows 10/11 que reúne CPU Guard por headroom, Stream Shield para OBS Studio e Streamlabs, GPU Guard Stable, RAM Cleaner/Guard, NEXAR HDD Engine, Discord Lite, painel em segundo plano e os perfis NEXAR Boost Gaming e NEXAR Boost Stream.
+O NEXAR é um aplicativo nativo para Windows 10/11 que reúne CPU Guard adaptativo, Stream Shield, GPU Guard Stable, RAM Cleaner/Guard, NEXAR HDD Engine, Discord Lite e o novo **NEXAR Sentinel Core 1.0**.
+
+## Versão atual
+
+A versão oficial atual é a **2.2 Stable**:
+
+- Sentinel Core com SHA-256 local, Authenticode, integração AMSI e heurísticas transparentes
+- Monitoramento em tempo real de pastas de risco e quarentena reversível
+- CPU Guard 2.2 com tendência de carga, prevenção progressiva e recuperação
+- Stream Shield para OBS Studio e Streamlabs
+- GPU Guard Stable com inventário DXGI e preferência gráfica reversível por jogo
+- RAM Guard, RAM Cleaner, HDD Engine, Discord Stable/PTB e navegadores
+- Instalador e portátil nativos para x64 e x86
 
 ## Downloads
 
@@ -11,37 +23,19 @@ Use somente os arquivos publicados em [Releases](https://github.com/luidcorporat
 - **x64:** recomendado para Windows 10/11 de 64 bits
 - **x86:** para Windows 10 de 32 bits ou necessidade específica de compatibilidade
 - Instalador com desinstalador próprio e versão portátil para cada arquitetura
-- Documentação e checksums
 - Pacotes públicos sem código-fonte ou `Source.zip`
 
-## Prévia 2.2 Beta
+## Sentinel Core: limites transparentes
 
-A **2.2 Beta** está disponível como pré-lançamento para testar a nova geração do CPU Guard:
+O Sentinel é uma camada de segurança complementar. Ele trabalha em modo de usuário, não instala driver de kernel, não envia arquivos para a nuvem e não substitui uma solução antivírus independente.
 
-- cinco estados: Monitoramento, Prevenção, Ativo, Crítico e Recuperação
-- leitura filtrada e tendência para agir antes do gargalo
-- três níveis progressivos de contenção
-- proteção de jogos, Discord, OBS Studio, Streamlabs e áudio
-- restauração automática das prioridades
-- telemetria do estado, tendência, nível e última ação
+A detecção AMSI depende do provedor antimalware disponível no Windows. Uma heurística isolada gera alerta, mas não autoriza quarentena automática nem exclusão. Itens confirmados podem ser isolados em quarentena reversível.
 
-A versão 2.1 Stable permanece recomendada para uso diário. A Beta não é enviada automaticamente aos usuários do canal Stable.
+## Histórico
 
-[Baixar a versão 2.2 Beta](https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/tag/v2.2.0-beta.1)
+A [2.2 Beta](https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/tag/v2.2.0-beta.1) permanece arquivada para testes e foi substituída pela 2.2 Stable. As versões anteriores continuam listadas no site oficial.
 
-## Versão atual
-
-A versão oficial atual é a **2.1 Stable**:
-
-- GPU Guard Stable com inventário DXGI, detecção de múltiplas GPUs e preferência gráfica reversível por jogo
-- Stream Shield com detecção de OBS Studio e Streamlabs
-- CPU Guard com monitoramento, preparação, proteção, emergência e recuperação
-- NEXAR Boost Stream separado e reversível
-- RAM Guard, RAM Cleaner e NEXAR HDD Engine preservados
-- Discord Stable/PTB e navegadores compatíveis
-- Binários nativos x64 e x86 compilados e testados separadamente
-
-## Limites transparentes
+## Outros limites
 
 O aplicativo não cria processadores virtuais, não transforma HDD em SSD, não inventa memória RAM, não garante que a CPU nunca chegue a 100% e não promete consumo fixo para Discord ou navegadores. Os resultados dependem do computador e da carga atual.
 
