@@ -1,6 +1,6 @@
 # NEXAR HUB OPTIMIZER
 
-Site oficial e central de downloads do **NEXAR HUB OPTIMIZER 2.1 Stable**.
+Site oficial e central de downloads do **NEXAR HUB OPTIMIZER 2.1 Stable** e da prévia **2.2 Beta**.
 
 O NEXAR é um aplicativo nativo para Windows 10/11 que reúne CPU Guard por headroom, Stream Shield para OBS Studio e Streamlabs, GPU Guard Stable, RAM Cleaner/Guard, NEXAR HDD Engine, Discord Lite, painel em segundo plano e os perfis NEXAR Boost Gaming e NEXAR Boost Stream.
 
@@ -13,6 +13,21 @@ Use somente os arquivos publicados em [Releases](https://github.com/luidcorporat
 - Instalador com desinstalador próprio e versão portátil para cada arquitetura
 - Documentação e checksums
 - Pacotes públicos sem código-fonte ou `Source.zip`
+
+## Prévia 2.2 Beta
+
+A **2.2 Beta** está disponível como pré-lançamento para testar a nova geração do CPU Guard:
+
+- cinco estados: Monitoramento, Prevenção, Ativo, Crítico e Recuperação
+- leitura filtrada e tendência para agir antes do gargalo
+- três níveis progressivos de contenção
+- proteção de jogos, Discord, OBS Studio, Streamlabs e áudio
+- restauração automática das prioridades
+- telemetria do estado, tendência, nível e última ação
+
+A versão 2.1 Stable permanece recomendada para uso diário. A Beta não é enviada automaticamente aos usuários do canal Stable.
+
+[Baixar a versão 2.2 Beta](https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/tag/v2.2.0-beta.1)
 
 ## Versão atual
 
