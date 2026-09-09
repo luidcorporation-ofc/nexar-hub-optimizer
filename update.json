@@ -1,14 +1,1 @@
-{
-  "version": "2.2.0",
-  "channel": "stable",
-  "mandatory": false,
-  "build": "NEXAR-22-STABLE-SENTINEL-20260821-001",
-  "published": "2026-08-21",
-  "download": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.2.0/NEXAR_Hub_Optimizer_v2.2_STABLE_Setup_x64.exe",
-  "download_x64": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.2.0/NEXAR_Hub_Optimizer_v2.2_STABLE_Setup_x64.exe",
-  "download_x86": "https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.2.0/NEXAR_Hub_Optimizer_v2.2_STABLE_Setup_x86.exe",
-  "sha256": "cf48aa56c80e52e6fc5809c2270814edef2280c8a33410645429797cbc860628",
-  "sha256_x64": "cf48aa56c80e52e6fc5809c2270814edef2280c8a33410645429797cbc860628",
-  "sha256_x86": "e889f3e78e4eabc9bf00d50c3b2798e5189659f157c4c8d39785b024d7dee07b",
-  "notes": "Stable oficial 2.2: NEXAR Sentinel Core 1.0 com SHA-256, Authenticode, AMSI, heurísticas transparentes, monitoramento em tempo real e quarentena reversível; CPU Guard 2.2, Stream Shield, GPU Guard Stable, RAM/HDD e pacotes x64/x86 preservados."
-}
+{"version":"2.3.0-beta.1","channel":"beta","mandatory":false,"build":"NEXAR-23-BETA-GAMEFLOW-20260909-001","published":"2026-09-09","download":"https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.3.0-beta.1/NEXAR_Hub_Optimizer_v2.3_BETA_GAMEFLOW_Setup_x64.exe","download_x64":"https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.3.0-beta.1/NEXAR_Hub_Optimizer_v2.3_BETA_GAMEFLOW_Setup_x64.exe","download_x86":"https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.3.0-beta.1/NEXAR_Hub_Optimizer_v2.3_BETA_GAMEFLOW_Setup_x86.exe","sha256":"3bbd28df7b8e98ff2feb0f7ccedc846b9c0442d8470d7b4bea0baf116ed76ef7","sha256_x64":"3bbd28df7b8e98ff2feb0f7ccedc846b9c0442d8470d7b4bea0baf116ed76ef7","sha256_x86":"6431788503c2bbbdeec64f388276dedc256bb1742a94c01b3213e85fa6c3646d","notes":"NEXAR 2.3 Beta GameFlow: GameFlow, Steam Shield, CPU Guard 2.0 e Stream Shield. Atualização externa e reversível: sem injeção, DLLs, modificação de memória, arquivos de jogo ou anti-cheat."}
