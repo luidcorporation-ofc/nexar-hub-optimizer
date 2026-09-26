@@ -47,38 +47,8 @@ if ('IntersectionObserver' in window) {
 document.querySelector('#year').textContent = String(new Date().getFullYear());
 
 
-// 2.3 Stable: mantém o layout original e atualiza o conteúdo publicado.
-const stableRelease = {
-  tag: 'v2.3.0',
-  base: 'https://github.com/luidcorporation-ofc/nexar-hub-optimizer/releases/download/v2.3.0/',
-};
-
-const replaceText = (value) => value
-  .replaceAll('2.3 Beta GameFlow', '2.3 Stable GameFlow')
-  .replaceAll('CPU Guard 2.0', 'CPU Guard 2.2')
-  .replaceAll('Pré-lançamento', 'Lançamento estável')
-  .replaceAll('ATUAL · BETA', 'ATUAL · STABLE')
-  .replaceAll('09 SET 2026', '14 SET 2026')
-  .replaceAll('Windows Tune', 'Debloat Windows')
-  .replaceAll('Brave, Edge ou Chrome', 'Brave, Edge, Chrome, Opera ou Firefox');
-
-const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-const textNodes = [];
-while (walker.nextNode()) textNodes.push(walker.currentNode);
-textNodes.forEach((node) => {
-  const next = replaceText(node.nodeValue);
-  node.nodeValue = next.trim() === 'BETA' ? 'STABLE' : next;
-});
-
-document.querySelectorAll('a[href]').forEach((link) => {
-  const href = link.getAttribute('href');
-  if (!href || !href.includes('v2.3.0-beta.1')) return;
-  link.setAttribute('href', href
-    .replaceAll('v2.3.0-beta.1', 'v2.3.0')
-    .replaceAll('v2.3_BETA_GAMEFLOW', 'v2.3_STABLE_GAMEFLOW'));
-});
-
-const description = 'NEXAR HUB OPTIMIZER 2.3 Stable GameFlow: CPU Guard 2.2, Debloat Windows reversível, atualização interna verificada e Discord Lite para Opera e Firefox.';
+// Metadados da versão pública atual.
+const description = 'NEXAR HUB OPTIMIZER 2.3.1 Beta 2 Pulse Debloat: CPU Guard 2.2, Debloat Center reversível, RAM Guard automático e GameFlow para Windows 10 e 11.';
 document.querySelector('meta[name="description"]')?.setAttribute('content', description);
 document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
-document.title = 'NEXAR HUB OPTIMIZER 2.3 Stable — Controle real. Sem promessas falsas.';
+document.title = 'NEXAR HUB OPTIMIZER 2.3.1 Beta 2 — Controle reversível.';
